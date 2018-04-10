@@ -1,0 +1,17 @@
+<form>
+<h2><%= @task.title %></h2>
+  <div class="form-group">
+
+  <p><%= @task.details %></p>
+
+  </div>
+  <div class="form-check">
+
+
+  </div>
+  <%= link_to "Edit this task", edit_task_path, class:"btn btn-primary"%>
+
+</form>
+
+
+<%= link_to "Back", tasks_path %>
